@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{padding-left: 60px;padding-top: 60px; padding-right: 60px;}
+        .view1{display: inline; width: 100%;}
+        .view2{width: 100%;}
+        .view3{width: 100%;}
+        .view4{width: 100%;}
+        v1v1 , v1v2 , v1v3 {width: 33.33%;}
+        .view2{display: none;}
+        .view3{display: none;}
+        .view4{display: none;}
+        .v2v1 , .v3v1 , .v4v1{width: 60%; height: 70%;}
+        .v2v2 , .v2v3 ,.v3v2,.v3v3,.v4v2,.v4v3 {margin-bottom: 20px;} 
+        .view1{padding-right: 20px;}
+    </style>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script>
+
+//main page
+        $(Document).ready(function () {
+            $('.v1v1').click(function () {
+                $('.view1').hide();
+                $('.view2').show();
+                $('.view3').hide();
+                $('.view4').hide();
+                
+            });
+           });
+
+           $(Document).ready(function () {
+            $('.v1v2').click(function () {
+                $('.view1').hide();
+                $('.view2').hide();
+                $('.view3').show();
+                $('.view4').hide();
+            });
+           });
+
+           $(Document).ready(function () {
+            $('.v1v3').click(function () {
+                $('.view1').hide();
+                $('.view2').hide();
+                $('.view3').hide();
+                $('.view4').show();
+            });
+           });
+
+
+//new vid
+
+
+           $(Document).ready(function () {
+            $('.v2v1').click(function () {
+                $('.view1').hide();
+                $('.view2').show();
+                $('.view3').hide();
+                $('.view4').hide();
+                
+            });
+           });
+
+           $(Document).ready(function () {
+            $('.v2v2').click(function () {
+                $('.view1').hide();
+                $('.view2').hide();
+                $('.view3').show();
+                $('.view4').hide();
+            });
+           });
+
+           $(Document).ready(function () {
+            $('.v2v3').click(function () {
+                $('.view1').hide();
+                $('.view2').hide();
+                $('.view3').hide();
+                $('.view4').show();
+            });
+           });
+
+//new vid
+
+          $(Document).ready(function () {
+            $('.v3v1').click(function () {
+                $('.view1').hide();
+                $('.view2').show();
+                $('.view3').hide();
+                $('.view4').hide();
+                
+            });
+           });
+
+           $(Document).ready(function () {
+            $('.v3v2').click(function () {
+                $('.view1').hide();
+                $('.view2').show();
+                $('.view3').hide();
+                $('.view4').hide();
+            });
+           });
+
+           $(Document).ready(function () {
+            $('.v3v3').click(function () {
+                $('.view1').hide();
+                $('.view2').hide();
+                $('.view3').hide();
+                $('.view4').show();
+            });
+           });
+
+//new vid
+
+          $(Document).ready(function () {
+            $('.v4v1').click(function () {
+                $('.view1').hide();
+                $('.view2').show();
+                $('.view3').hide();
+                $('.view4').hide();
+                
+            });
+           });
+
+           $(Document).ready(function () {
+            $('.v4v2').click(function () {
+                $('.view1').hide();
+                $('.view2').hide();
+                $('.view3').show();
+                $('.view4').hide();
+            });
+           });
+
+           $(Document).ready(function () {
+            $('.v4v3').click(function () {
+                $('.view1').hide();
+                $('.view2').show();
+                $('.view3').hide();
+                $('.view4').hide();
+            });
+           });
+
+    </script>
+</head>
+<body>
+    <div class="view1">
+            <video class="v1v1" src="Big_Buck_Bunny_720_10s_10MB.mp4"></video>    
+    </div>
+    <div class="view1">
+            <video class="v1v2" src="file_example_MP4_1280_10MG.mp4"></video>
+    </div>
+    <div class="view1">
+            <video class="v1v3" src="Pexels Videos 1812902.mp4"></video>
+    </div>
+
+<section class="view2video1">
+    <div class="view2" style="position: absolute;">
+        <video class="v2v1 , playb" autoplay muted controls src="Big_Buck_Bunny_720_10s_10MB.mp4"></video>
+    </div>
+    <div class="view2" style="text-align:right; position: relative; ">
+        <video class="v2v2" src="file_example_MP4_1280_10MG.mp4"></video>
+    </div>
+    <div class="view2" style="text-align: right ; position: relative; ">
+        <video class="v2v3" src="Pexels Videos 1812902.mp4"></video>
+    </div>
+</section >
+
+
+<section class="view3video2">
+    <div class="view3" style="position: absolute;">
+        <video class="v3v1 , playb" autoplay muted controls src="file_example_MP4_1280_10MG.mp4"></video>
+    </div>
+    <div class="view3" style="text-align:right; position: relative; ">
+        <video class="v3v2" src="Big_Buck_Bunny_720_10s_10MB.mp4"></video>
+    </div>
+    <div class="view3" style="text-align: right ; position: relative; ">
+        <video class="v3v3" src="Pexels Videos 1812902.mp4"></video>
+    </div>
+</section>
+
+<section class="view3video3">
+    <div class="view4" style="position: absolute;">
+        <video class="v4v1 , playb" autoplay muted controls src="Pexels Videos 1812902.mp4"></video>
+    </div>
+    <div class="view4" style="text-align:right; position: relative; ">
+        <video class="v4v2" src="file_example_MP4_1280_10MG.mp4"></video>
+    </div>
+    <div class="view4" style="text-align: right ; position: relative; ">
+        <video class="v4v3" src="Big_Buck_Bunny_720_10s_10MB.mp4"></video>
+    </div>
+</section>
+    
+</body>
+</html>
